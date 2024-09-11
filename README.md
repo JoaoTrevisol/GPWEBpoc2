@@ -1,2 +1,15 @@
 # GPWEBpoc2
-Trabalho métodos de arrays em Javascript
+Trabalho métodos de arrays em Javascript:
+
+Para conseguir acessar o console do javascript, na página em branco no seu navegador aperte com o botão direito do seu mouse, ou os dois botões do seu touchpad caso estiver em um notebook, e aperte na opção "Inspecionar", e em seguida selecione a opção "console". 
+
+O método de array “Filter”, é responsável por criar um novo array [ ], após todos os elementos serem filtrados, depois de passarem pelo “teste”, ou condição.
+Uma const foi criada para armazenar os valores do array (const numbers). Outra const foi criada para retornar o primeiro array, depois de filtrado, ou seja, um novo array( const newArray). Para que ocorra a filtração, uma function é necessária, dessa maneira o novo array retorna os valores do primeiro array, que se enquadram na condição. No meu código a condição era ser maior que 7, portanto após ser filtrado, foi retornado todos os valores, do array original, maiores que 7.  
+
+O método de array “Map”, é responsável por mapear, SEM MODIFICAR o array original, e vai retornar um novo array. Assim como no método Filter, uma const foi criada para armazenar os valores do array ( const numbers1) e outra const foi criada para retornar os valores do primeiro array, depois de mapeado, ou seja, um novo array baseado na condição de return (const numbersDouble). No meu código a função criada tem como objetivo retornar o dobro dos valores do array original, e  esse retorno dos valores constitui o novo array. 
+
+O método de array “Sort”, é responsável por ordenar o array, de forma crescente ou decrescente por exemplo.  Assim como nos métodos anteriores, uma const foi criada para armazenar os valores do array ( const numbers2) e outra const foi criada para retornar os valores do primeiro array, depois de ordenado ( const sortednumbers), ou seja, retornar os valores de forma ordenada de acordo com a função. No meu código eu queria que os valores fossem retornados de forma crescente, portanto a seguinte função foi criada: function(a, b) {return a – b}). Por default, o método Sort ordena o array de forma crescente, porém Sort por si só, ordena strings. Portanto a função se faz necessária quando se trata de ordenar dígitos. 
+
+O método de array “Reduce”, é responsável por executar uma função, utilizando os elementos do array, e retornar somente UM valor. Novamente uma const foi criada para armazenar o array original (const numbers3),  e outra const para receber o segundo array (const total). No meu código eu queria o resultado da soma de todos os elementos do array original, para isso uma function foi criada para realizar a soma, retornando o acumulador e somando com o valor seguinte, sendo Zero o acumulador inicial ( 0 + valor 1... resultado dessa soma + valor 2... resultado dessa soma + valor3...) 
+
+O método de array “Spread”, é responsável por expandir os valores de um array em outro array. Uma const foi criada para armazenar o primeiro array (const numbers4), outra const foi criada para armazenar o segundo array (const numbers5), e uma terceira const foi criada para juntar os dois arrays (cont juncao), que recebe const numbers4 e const numbers5, dessa forma o terceiro array é uma junção do primeiro e do segundo.
